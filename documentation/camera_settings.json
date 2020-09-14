@@ -1,0 +1,25 @@
+{
+  "Aperture":0,
+
+  "FocusMode":{
+    "Manual": 0, 
+    "AF_Single": 1,
+    "AF_Continuous": 2,
+    "AF_Auto": 3
+    },
+
+  "FlashMode":{
+    "NoFlash" : 0,
+    "RedEyeAutomatic" : 1,
+    "Auto": 2
+    },
+
+  "ShutterSpeed":0,
+  "Exposure":0,
+  "Zoom":0
+  
+}
+
+
+
+

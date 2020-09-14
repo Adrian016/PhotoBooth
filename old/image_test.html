@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<header>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</header>
+
+
+<body>
+
+    <h1>Hello</h1>
+    <div>
+        <button id="portrait-button" class="btn waves-effect waves-light">Change to Portrait</button>
+        <button id="collage-button" class="btn waves-effect waves-light">Change to Collage</button>
+      </div>
+
+    <div>
+    <img src="images/black_hair.jpg" id="collagePic">
+    </div>
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  $("#portrait-button").on("click",function(){
+    console.log("Button pressed")
+    $("#collagePic").attr('src','images/adrian.jpeg')
+
+  })
+  
+  $('#collage-button').on('click', function(){
+    $('#collagePic').attr('src','images/black_hair.jpg')
+
+  })
+</script>
+
+
+
+</html>

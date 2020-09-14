@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<header>
+  
+  
+  
+	</header>  
+	<body>
+      
+      <h1>
+        Lets Go!!
+      </h1>
+      <button id="Update_Text">
+        Update Text
+      </button>
+      <button id="Run_Function">
+          Run Function
+      </button>
+      <p>
+        This is a small blurb because I'm learning to use jQuery events.
+      </p>
+      <p id="Test"></p>
+      
+  <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+  <script>
+    
+    $("#Update_Text").on("click",
+    	function(){
+    					console.log("Update Button clicked");
+                        myFirstJQFunction();
+    });
+
+      var myFirstJQFunction = function(){
+       $('p').text("This is some new text that was added after the button was clicked!!! I did it!!")
+
+      };
+
+    $("#Run_Function").on("click",
+        function(){
+            console.log('Run Function Button Pressed')
+            $.ajax({
+                url:"testURL",
+                type: "post",
+                success: function(result) {
+                    console.log(result);
+                }
+
+            });
+
+
+        })
+      </script>
+      
+  </body>
+
+
+
+
+  
+  
+  
+  
+  
+  </html>

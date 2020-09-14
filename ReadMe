@@ -1,0 +1,5 @@
+Camera Setup
+- Camera must be set to manual focus mode. If the image-capture command times out prior to the AF being complete, the photo will not be taken
+- Automatic mounting of USB devices MUST BE TURNED OFF. Do this by turning off auto mount and autorun of removable media by going to "Files" >> ""File Management Preferences" >> "Behavior" >> "Media Handling" >> Uncheck all boxes
+
+
